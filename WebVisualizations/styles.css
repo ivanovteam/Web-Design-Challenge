@@ -11,6 +11,7 @@ body {
 .navbar { 
   list-style-type: none; 
 }
+
 .page-header{
   padding-top: 100px;
   
@@ -31,15 +32,7 @@ body {
   /* background: #cdcdcdf5; */
   align-items: center;
   border-inline-end-style:ridge;
-  
-  
 
-}
-.col-md-4 {
-  /* height: 500px;
-  padding-top: 200px;
-  padding-left: 100px; */
-  /* background: #cdcdcd; */
 }
 
 .col-md-6{
@@ -71,6 +64,27 @@ h4{
 
 
 
-@media {
-  
+@media  (max-width: 959px){
+  /*most of the adjustment and resising are done automatically by Bootstrap */
+  /* the following below are adjusting the image sizes and the main titles  */
+  img{
+    width: 60%;
+    height: 80%;
+  }
+  h1{
+    font-size: 25px;
+  }
+  h2{
+    font-size: 20px;
+  }
+  h3{
+      font-size: 20px;
+    }
+  h4{
+    font-size: 15px;
+  }
+  p{
+    font-size: small;
+   
+  }
 }
